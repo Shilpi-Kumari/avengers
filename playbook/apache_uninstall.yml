@@ -1,0 +1,8 @@
+---
+ - hosts: webservers
+   sudo: yes
+   tasks:
+      - name: uninstall apache from ubuntu
+        apt:
+           pkg: apache2
+           state: absent

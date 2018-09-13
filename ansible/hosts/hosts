@@ -1,6 +1,7 @@
 [local]
-local_ipaddress ansible_connection=loxal
+local_ipaddress ansible_connection=local
+#This is EC2 instance with username ubuntu, not mentioning ip address of EC2 instance due to security reason
 [webservers] #host group
 ipaddress_of_EC2instance ansible_connection=ssh ansible_user=ubuntu
-#This is EC2 instance with username ubuntu, not mentioning ip address of EC2 instance due to security reason
+
 

@@ -1,1 +1,1 @@
-Project repository for Enterprise Software Platform. update
+Project repository for Enterprise Software Platform.

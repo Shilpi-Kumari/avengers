@@ -1,1 +1,1 @@
-Project repository for Enterprise Software Platform
+Project repository for Enterprise Software Platform.
